@@ -1,5 +1,0 @@
-Title: AUF Kirby Plugin Template
-
-----
-
-Aufpluginfield: custom

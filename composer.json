@@ -19,6 +19,6 @@
         "phpunit/phpunit": "^7.5"
     },
     "scripts": {
-        "test": "./vendor/bin/phpunit  --bootstrap ./tests/bootstrap.php --testdox ./tests/suites"
+        "test": "./vendor/bin/phpunit  --bootstrap ./tests/bootstrap.php --testdox ./tests/suites --colors=always"
     }
 }
