@@ -2,7 +2,7 @@
     "name": "peterstollenwerk/auf-kirby-plugin-template",
     "description": "auf kirby plugin template",
     "type": "kirby-plugin",
-    "license": "",
+    "license": "MIT",
     "authors": [
         {
             "name": "Peter Stollenwerk",
