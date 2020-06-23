@@ -1,0 +1,1 @@
+# auf-kirby-plugin-template
