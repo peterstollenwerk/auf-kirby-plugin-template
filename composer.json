@@ -1,5 +1,19 @@
 {
+    "name": "peterstollenwerk/auf-kirby-plugin-template",
+    "description": "auf kirby plugin template",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Stollenwerk",
+            "email": "peter.stollenwerk@aufdesign.de"
+        }
+    ],
     "require": {
+        "getkirby/composer-installer": "^1.1",
         "getkirby/cms": "^3.3"
+    },
+    "config": {
+        "optimize-autoloader": true
     }
 }

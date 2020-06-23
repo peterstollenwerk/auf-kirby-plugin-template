@@ -6,7 +6,6 @@
     :label="label"
     :required="required"
   >
-
     <k-input
       v-model="value"
       :options="[
@@ -20,7 +19,7 @@
       @input="onChange"
 
     />
-
+    <p>Yeah</p>
     <div v-if="isCustom">Custom Column! ; )</div>
 
     <p>Counter: {{ counter }}</p>

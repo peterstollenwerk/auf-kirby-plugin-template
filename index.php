@@ -1,8 +1,8 @@
 <?php
 
-Kirby::plugin('auf/grid', [
+Kirby::plugin('auf/plugin', [
     'fields' => [
-        'grid' => [
+        'aufpluginfield' => [
           // here we could define the backend logic for our field if needed
         ]
     ]

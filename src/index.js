@@ -1,7 +1,7 @@
-import GridField from "./components/fields/GridField.vue";
+import AufPluginField from "./components/fields/AufPluginField.vue";
 
-panel.plugin('auf/doi', {
+panel.plugin('auf/plugin', {
   fields: {
-    gridfield: GridField
+    aufpluginfield: AufPluginField
   }
 });
