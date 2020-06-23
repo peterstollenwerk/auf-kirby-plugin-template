@@ -1,0 +1,113 @@
+Title: AUFkit
+
+----
+
+Grid-column: custom
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Wow",
+        "id": "_wajh692yx",
+        "type": "blockquote"
+    },
+    {
+        "attrs": [],
+        "content": "We can do crazy things with this!!!",
+        "id": "_49ws9mp76",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "This is the first text.",
+        "id": "_SofxNn5eY",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Let\u00b4s create some rythm.",
+        "id": "_kulvx7zqr",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "A table.",
+        "id": "_dbkr6d0wu",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "A mouse button.",
+        "id": "_2kmirgiyu",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Some Image.",
+        "id": "_fw2lnutn4",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "language": "php"
+        },
+        "content": "php composer.phar install",
+        "id": "_1f8t8dtuf",
+        "type": "code"
+    },
+    {
+        "attrs": {
+            "guid": "/pages/home/files/bildschirmfoto-2020-04-30-um-12.17.22.png",
+            "id": "home/bildschirmfoto-2020-04-30-um-12.17.22.png",
+            "ratio": 1.5692618806875631154440497994073666632175445556640625,
+            "caption": ""
+        },
+        "content": "",
+        "id": "_tis9ro84m",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Do this.",
+        "id": "_uf4pa9k4e",
+        "type": "ol"
+    },
+    {
+        "attrs": {
+            "indent": 0
+        },
+        "content": "than that",
+        "id": "_lfjfleg7x",
+        "type": "ol"
+    },
+    {
+        "attrs": {
+            "indent": 0
+        },
+        "content": "Do we need more?",
+        "id": "_kv38ge37o",
+        "type": "ol"
+    },
+    {
+        "attrs": {
+            "indent": 0
+        },
+        "content": "Nope.",
+        "id": "_4cyau59mn",
+        "type": "ol"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_t1zk03pzz",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Doi: Yes we can

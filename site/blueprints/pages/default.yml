@@ -1,0 +1,11 @@
+title: Default Page
+preset: page
+fields:
+  grid_column:
+    label: Grid Column
+    type: gridfield
+  text:
+    label: Text
+    type: editor
+    size: large
+
