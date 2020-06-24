@@ -63,15 +63,22 @@ You can set the watched folders in the watchers configuration:
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+## House Keeping
+
+Rename files:
+
+```my-plugin/index.php```
+```my-plugin/src/index.js```
+```my-plugin/...etc...```
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 ## Releasing your plugin
 
 1. Create new git Repo
 
 ```https://github.com/git-account/my-plugin```
-
-2. Change Meta-Data in composer.json according to your git repo
-
-```myProject/composer.json```
 
 3. Connect local project with github
 
@@ -101,3 +108,5 @@ You can set the watched folders in the watchers configuration:
 ### If the plugin has dependencies follow the guide:
 
 <https://getkirby.com/docs/guide/plugins/plugin-setup-composer>
+
+<https://phpunit.readthedocs.io/en/9.2/>
