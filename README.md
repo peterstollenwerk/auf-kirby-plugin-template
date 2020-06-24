@@ -1,23 +1,103 @@
 # auf-kirby-plugin-template
 
-<https://getkirby.com/docs/cookbook/setup/monolithic-plugin-setup>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+## Installation
+
+1. Clone this repository
+
+```git clone https://github.com/peterstollenwerk/auf-kirby-plugin-template.git my-plugin```
+
+2. Remove .git-Folder
+
+```myProject/.git```
+
+3. Install with dev-dependencies via composer.
+
+```php ../composer.phar install --dev```
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-## If the plugin has dependencies follow the guide:
+## Test your Installation
 
-<https://getkirby.com/docs/guide/plugins/plugin-setup-composer>
+1. Change the site-title
+
+```my-plugin/content/site.txt```
+
+2. Point your webserver to your project and Start it. Verify to see your new site title.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-## Running PHP Unit Tests
+## Test your Installation for creating Panel-Plugins
 
-<https://phpunit.de/getting-started/phpunit-9.html>
+!Assuming you have installed parcel via yarn globally!
+
+1. Change something in
+
+```my-plugin/src/components/fields/AufPluginField.vue```
+
+2. Recompile the field
+
+```yarn run dev```
+
+4. Open the kirby panel, go to home page and verify to see your changes change live in AufPluginField
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+## Running Unit Tests
 
 there´s a test script in composer.json wich executes the unit test.
 
-```composer run test```
+```composer run test``` or ```php ../composer.phar run test```
 
-or
+depending on your composer-setup.
 
-```php ../composer.phar run test```
+Alternativly you can watch for changes with:
+
+```php ../composer.phar run watch```
+
+This will run unit tests everytime you change a php file. 
+You can set the watched folders in the watchers configuration:
+
+```my-plugin/phpunit-watcher.yml```
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+## Releasing your plugin
+
+1. Create new git Repo
+
+```https://github.com/git-account/my-plugin```
+
+2. Change Meta-Data in composer.json according to your git repo
+
+```myProject/composer.json```
+
+3. Connect local project with github
+
+4. Exclude Files for your Release in ```my-plugin/.gitattributes```
+
+5. Compile your panel-fields
+
+```yarn run build```
+
+6. Push Project
+
+7. Create Release-Tag
+
+8. Connect Project with your Packagist-Account
+
+9. Install project in your kirby-installation
+
+```composer require git-account/my-plugin```
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+## Docs
+
+<https://getkirby.com/docs/guide/plugins/plugin-setup-panel>
+<https://getkirby.com/docs/cookbook/setup/monolithic-plugin-setup>
+
+### If the plugin has dependencies follow the guide:
+
+<https://getkirby.com/docs/guide/plugins/plugin-setup-composer>
