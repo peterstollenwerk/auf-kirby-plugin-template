@@ -4,7 +4,7 @@
 
 ## Installation
 
-1. Clone this repository
+1. Clone this repository to desired plugin-folder
 
 ```git clone https://github.com/peterstollenwerk/auf-kirby-plugin-template.git my-plugin```
 
