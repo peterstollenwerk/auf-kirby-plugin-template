@@ -18,7 +18,7 @@
         "optimize-autoloader": true
     },
     "require": {
-        "getkirby/composer-installer": "^1.4"
+        "getkirby/composer-installer": "^1.1.4"
     },
     "require-dev": {
         "getkirby/cms": "^3.4.2",
